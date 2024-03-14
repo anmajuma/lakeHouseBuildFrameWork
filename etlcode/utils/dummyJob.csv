@@ -1,0 +1,2 @@
+JobName,SourceSystemName,SourceTableName,JobID,,RowsInserted,RowsRejected,RowsUpdated,JobStartTime,JonEndTime,JobStatus,ErrorMessage
+"dummyData","dummyData","dummyData","dummyData",0,0,0,2000-01-01,2000-01-01,"dummyData","dummyData"

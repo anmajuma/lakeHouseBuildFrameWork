@@ -1,0 +1,2 @@
+JobID,TaskName,TaskID,TaskStartTime,TaskEndTime,RowsInserted,RowsRejected,RowsUpdated,TaskStatus,ErrorMessage
+"dummyData","dummyData","dummyData",2000-01-01,2000-01-01,0,0,0,"dummyData","dummyData"
