@@ -1,7 +1,7 @@
 
-from etlcode.utils import jobTaskIDGen
+from audit import jobTaskIDGen
 from etlcode.tasks import src2landing ,landing2brnz
-from etlcode.utils import audit
+from audit import audit
 
 
 jobID = jobTaskIDGen.genID()

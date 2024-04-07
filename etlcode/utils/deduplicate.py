@@ -2,8 +2,8 @@ from etlcode.utils.sparkSessionBuilder import createSparkSession
 from etlcode.utils.schemaBuild import *
 from etlcode.utils.headerBuild import *
 from etlcode.utils.ingestion import *
-from etlcode.utils import jobTaskIDGen
-from etlcode.utils import audit
+from audit import jobTaskIDGen
+from audit import audit
 from pyspark.sql.functions import sha2, concat_ws
 from pyspark.sql.types import StructType, StructField, IntegerType
 

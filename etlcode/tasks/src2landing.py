@@ -2,8 +2,8 @@ from etlcode.utils.sparkSessionBuilder import createSparkSession
 from etlcode.utils.schemaBuild import *
 from etlcode.utils.headerBuild import *
 from etlcode.utils.ingestion import *
-from etlcode.utils import jobTaskIDGen
-from etlcode.utils import audit
+from audit import jobTaskIDGen
+from audit import audit
 
 
 def ingestSrcData(jobID,dataDictConfigPath,dataDictMappingConfigPath,srcConfigPath,tableNm,sourceName,sourceType):
